@@ -29,6 +29,7 @@ const Navbar = () => {
    
     <div className='  hidden z-50 backdrop-blur-sm  md:fixed w-[100%] top-0 md:flex items-center justify-between p-5'>
     
+    <NavLink  to='/'>
 
         <svg className='shadow-2xl animate__animated animate__fadeInLeft' width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_1_31)">
@@ -40,7 +41,7 @@ const Navbar = () => {
                 </clipPath>
               </defs>
         </svg>
-
+        </NavLink>
     <div className=' z-50 justify-center  items-center shadow-2xl rounded-full text-white md:text-3xl'>
       <ul className='flex p-3 gap-1 justify-center items-center'>
         <li className='pt-2 pb-2'>
