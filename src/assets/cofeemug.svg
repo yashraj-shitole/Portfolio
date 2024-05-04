@@ -1,0 +1,14 @@
+<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="33" height="33" fill="#383838"/>
+<g id="Frame 2" clip-path="url(#clip0_0_1)">
+<rect width="1007" height="609" transform="translate(-436 -234)" fill="white"/>
+<g id="lucide:coffee">
+<path id="Vector" d="M23.375 11H24.75C26.2087 11 27.6076 11.5795 28.6391 12.6109C29.6705 13.6424 30.25 15.0413 30.25 16.5C30.25 17.9587 29.6705 19.3576 28.6391 20.3891C27.6076 21.4205 26.2087 22 24.75 22H23.375M23.375 11H4.125V23.375C4.125 24.8337 4.70446 26.2326 5.73591 27.2641C6.76736 28.2955 8.16631 28.875 9.625 28.875H17.875C19.3337 28.875 20.7326 28.2955 21.7641 27.2641C22.7955 26.2326 23.375 24.8337 23.375 23.375V11ZM8.25 2.75V5.5M13.75 2.75V5.5M19.25 2.75V5.5" stroke="#CCCCCC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1007" height="609" fill="white" transform="translate(-436 -234)"/>
+</clipPath>
+</defs>
+</svg>
