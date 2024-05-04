@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { PiArrowBendDownRightFill } from "react-icons/pi";
+
+
 
 const Project = (props) => {
   return (
@@ -9,7 +12,13 @@ const Project = (props) => {
 
             <div className='rounded-3xl border  overflow-hidden relative h-[250px]   bg-cover'  >
                     <img className='object-cover' src={props.url} alt="" />
+                    
             </div>
+            <div className='flex justify-end px-5'>
+            <PiArrowBendDownRightFill size={30}/>
+
+            </div>
+
 
         
         </Link>
