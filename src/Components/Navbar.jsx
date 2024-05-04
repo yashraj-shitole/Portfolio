@@ -66,7 +66,7 @@ const Navbar = () => {
     </div>
 
 
-    <div className=' bg-[#00000010] rounded-full fixed z-50 backdrop-blur-sm top-2 flex items-center justify-between pl-5 pr-5 w-[100%] h-10 md:hidden'>
+    <div className=' bg-[#00000010] rounded-full fixed m-2 z-50 backdrop-blur-sm top-2 flex items-center justify-between pl-5 pr-5 w-[100%] h-10 md:hidden'>
       {/* nav bar for small mobile */}
       <NavLink  to='/'>
 
