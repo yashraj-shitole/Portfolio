@@ -68,6 +68,7 @@ const Navbar = () => {
 
     <div className=' bg-[#00000010] rounded-full fixed z-50 backdrop-blur-sm top-2 flex items-center justify-between pl-5 pr-5 w-[100%] h-10 md:hidden'>
       {/* nav bar for small mobile */}
+      <NavLink  to='/'>
 
       <svg className='shadow-2xl animate__animated animate__fadeInLeft' width="25" height="25" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_1_31)">
@@ -79,6 +80,7 @@ const Navbar = () => {
                 </clipPath>
               </defs>
         </svg>
+        </NavLink>
 
 
           
