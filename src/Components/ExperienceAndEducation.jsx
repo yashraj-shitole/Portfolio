@@ -141,7 +141,7 @@ const Experience=(props)=>{
 <div className='md:hidden'>
   <Steps
       current={2}
-      percent={20}
+      percent={80}
       direction="vertical"
       size='small'
       
