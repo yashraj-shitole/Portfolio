@@ -33,7 +33,7 @@ const About = () => {
 
               </div>
               <div>
-                <h1 className=' text-l font-extralight text-[#383838] md:w-[70vw] md:text-2xl pl-5 md:pl-[5vw]'>Contact me: <a className='font-medium' href="mailto:someone@example.com">yashrajs97@gmail.com</a></h1>
+                <h1 className=' text-l font-extralight text-[#383838] md:w-[70vw] md:text-2xl pl-5 md:pl-[5vw]'>Contact me: <a className='font-medium' href="mailto:yashrajs927@gmail.com">yashrajs97@gmail.com</a></h1>
               </div>
 
               <Marquee className='p-10 md:p-32 h-[200px] md:h-[300px]'  speed={100}>
