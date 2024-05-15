@@ -15,28 +15,29 @@ const About = () => {
   return (
     <div>
 
-      <div className='flex flex-col gap-5 md:gap-10 pt-20  md:pt-[20vh] '>
-      <Fade cascade damping={0.1}>
+      <div className='flex flex-col items-center w-[100%] gap-5 md:gap-10 pt-20  md:pt-[20vh] '>
+      <Fade className='w-full' cascade damping={0.1}>
               <div className='flex justify-start items-center gap-2'>
                     <h1 className='text-3xl md:text-6xl p-5 md:pl-[5vw]'>I am Yashraj Shitole </h1>
                     
                     <svg className='h-[40px] md:h-[55px]' viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <g id="lucide:coffee">
-                          <path id="Vector" d="M23.375 11H24.75C26.2087 11 27.6076 11.5795 28.6391 12.6109C29.6705 13.6424 30.25 15.0413 30.25 16.5C30.25 17.9587 29.6705 19.3576 28.6391 20.3891C27.6076 21.4205 26.2087 22 24.75 22H23.375M23.375 11H4.125V23.375C4.125 24.8337 4.70446 26.2326 5.73591 27.2641C6.76736 28.2955 8.16631 28.875 9.625 28.875H17.875C19.3337 28.875 20.7326 28.2955 21.7641 27.2641C22.7955 26.2326 23.375 24.8337 23.375 23.375V11ZM8.25 2.75V5.5M13.75 2.75V5.5M19.25 2.75V5.5" stroke="#CCCCCC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector" d="M23.375 11H24.75C26.2087 11 27.6076 11.5795 28.6391 12.6109C29.6705 13.6424 30.25 15.0413 30.25 16.5C30.25 17.9587 29.6705 19.3576 28.6391 20.3891C27.6076 21.4205 26.2087 22 24.75 22H23.375M23.375 11H4.125V23.375C4.125 24.8337 4.70446 26.2326 5.73591 27.2641C6.76736 28.2955 8.16631 28.875 9.625 28.875H17.875C19.3337 28.875 20.7326 28.2955 21.7641 27.2641C22.7955 26.2326 23.375 24.8337 23.375 23.375V11ZM8.25 2.75V5.5M13.75 2.75V5.5M19.25 2.75V5.5" stroke="#CCCCCC" />
                           </g>
                     </svg>
               </div>
               
 
               <div>
-              <h6 className=' text-l font-extralight text-[#383838] md:w-[70vw] md:text-2xl pl-5 md:pl-[5vw]'>As a full-stack developer, I juggle between front-end finesse and back-end wizardry so seamlessly that even my coffee mugs envy my multitasking skills. Debugging is my cardio, and my code has a sense of humor – it laughs at bugs!</h6>
+              <h6 className=' text-l font-extralight text-[#383838] w-[100%] md:w-[70vw] md:text-2xl px-5 md:pl-[5vw]'>As a full-stack developer, I juggle between front-end finesse and back-end wizardry so seamlessly that even my coffee mugs envy my multitasking skills. Debugging is my cardio, and my code has a sense of humor – it laughs at bugs!</h6>
 
               </div>
               <div>
                 <h1 className=' text-l font-extralight text-[#383838] md:w-[70vw] md:text-2xl pl-5 md:pl-[5vw]'>Contact me: <a className='font-medium' href="mailto:yashrajs927@gmail.com">yashrajs97@gmail.com</a></h1>
               </div>
 
-              <Marquee className='p-10 md:p-32 h-[200px] md:h-[300px]'  speed={100}>
+              <div className='w-[100%]'>
+                 <Marquee className='p-10 md:p-32 h-[200px] w-[100%] md:h-[300px]'  speed={100}>
                 <div className='h-auto flex gap-10 pr-10'>
                     <h1 className='text-5xl md:text-8xl font-sharpie'>JAVA</h1>
                     <h1 className='text-5xl md:text-8xl font-sharpie'>JavaScript</h1>
@@ -49,6 +50,8 @@ const About = () => {
                 </div>
                
               </Marquee>
+              </div>
+             
 
               <div className='w-[100%] gap-5 flex flex-col md:flex-row justify-center items-center md:p-20  h-auto'>
                 <Experience/>

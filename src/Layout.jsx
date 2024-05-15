@@ -46,7 +46,7 @@ const Layout = () => {
 
 
 
-    <div className='lg:hidden flex flex-col overflow-hidden'>
+    <div className='lg:hidden flex w-[100vw] flex-col overflow-hidden'>
  
                 <Navbar/>
 
