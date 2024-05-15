@@ -12,7 +12,7 @@ return (
       <div className='md:pt-[150px]'>
           
             <Fade>
-            <div className='flex gap-5 md:gap-10 pt-20  md:pt-[20vh]'>
+            <div className='flex gap-5 md:gap-10 pt-20  md:pt-16'>
                   <h1 className='text-4xl md:text-6xl pl-[5vw]'>Projects</h1>
             </div>
             </Fade>
