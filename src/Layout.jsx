@@ -9,7 +9,9 @@ const Layout = () => {
 
   return (
 
- <div className=' overflow-hidden'>
+    <>
+
+ <div className='hidden lg:flex flex-col overflow-hidden'>
   <AnimatedCursor
       innerSize={20}
       outerSize={15}
@@ -42,6 +44,24 @@ const Layout = () => {
 
     </div>
 
+
+
+    <div className='lg:hidden flex flex-col overflow-hidden'>
+ 
+                <Navbar/>
+
+
+        <div >
+                  <Outlet/>
+        </div>
+
+          <Footer/>
+
+    </div>
+
+
+
+    </>
 
   )
 }
