@@ -26,8 +26,8 @@ const Education = (props) => {
 
 <div className='hidden md:flex '>
 <Steps
-      current={2}
-      percent={90}
+      current={3}
+      percent={20}
       direction="vertical"
 
       
@@ -46,14 +46,18 @@ const Education = (props) => {
           title: 'SHARAD INSTITUTE OF TECHNOLOGY COLLEGE OF ENGINEERING',
           description: 'B.Tech in Computer Science | 2024 | Ichalkaranji,IN',
         },
+        {
+          title: 'Centre for Development of Advanced Computing | Sunbeam Institute of Information Technology',
+          description: 'PG Diploma in Advanced Computing | 2024 | Karad,IN',
+        },
      
       ]}
     />
 </div>
 <div className='md:hidden'>
   <Steps
-      current={2}
-      percent={90}
+      current={3}
+      percent={20}
       direction="vertical"
       size='small'
       
@@ -69,6 +73,10 @@ const Education = (props) => {
         {
           title: 'SHARAD INSTITUTE OF TECHNOLOGY COLLEGE OF ENGINEERING',
           description: 'B.Tech in Computer Science | 2024 | Ichalkaranji,IN',
+        },
+        {
+          title: 'Centre for Development of Advanced Computing | Sunbeam Institute of Information Technology',
+          description: 'PG Diploma in Advanced Computing | 2024 | Karad,IN',
         },
      
       ]}
@@ -113,8 +121,8 @@ const Experience=(props)=>{
 
 <div className='hidden md:flex '>
 <Steps
-      current={2}
-      percent={80}
+      current={3}
+      percent={100}
       direction="vertical"
       
       
@@ -140,8 +148,8 @@ const Experience=(props)=>{
 </div>
 <div className='md:hidden'>
   <Steps
-      current={2}
-      percent={80}
+      current={3}
+      percent={100}
       direction="vertical"
       size='small'
       
