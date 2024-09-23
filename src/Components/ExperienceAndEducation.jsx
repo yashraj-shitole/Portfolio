@@ -15,7 +15,7 @@ const Education = (props) => {
     theme={{
       token: {
         // Seed Token
-        colorPrimary: '#2563EB',
+        colorPrimary: '#383838',
         borderRadius: 2,
 
         // Alias Token
@@ -110,11 +110,11 @@ const Experience=(props)=>{
     theme={{
       token: {
         // Seed Token
-        colorPrimary: '#2563EB',
+        colorPrimary: '#383838',
         borderRadius: 2,
 
         // Alias Token
-        colorBgContainer: '#f6ffed',
+        colorBgContainer: '#383838',
       },
     }}
   >
