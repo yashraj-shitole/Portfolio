@@ -1,9 +1,7 @@
 import 'animate.css';
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Fade } from "react-awesome-reveal";
-import { useEffect , useRef } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 
 
@@ -58,7 +56,7 @@ const Navbar = () => {
 
     {/* Resume link */}
    
-          <Link target='_' to="https://docs.google.com/document/d/1ZhHKpIsGoKRbYNFInq4q-SzUS2-llOFxks9jNVwEpQI/edit?usp=sharing" className='animate__animated animate__fadeInRight  translate-all shadow-2xl p-2 md:p-4 text-white md:text-3xl bg-blue-600 rounded-full'>Resume</Link>
+          <Link target='_' to="https://drive.google.com/file/d/15qsd7TGuFnp4Woh9Kyu6sdg1O3a8Hvz3/view?usp=sharing" className='animate__animated animate__fadeInRight  translate-all shadow-2xl p-2 md:p-4 text-white md:text-3xl bg-blue-600 rounded-full'>Resume</Link>
 
   
 
