@@ -104,7 +104,7 @@ const Navbar = () => {
                       <div className="rounded-full w-full h-0 border  border-gray-300  "></div>
 
                       <li>
-                        <NavLink className="text-lg  text-black transition-all " target='_' to="https://docs.google.com/document/d/1ZhHKpIsGoKRbYNFInq4q-SzUS2-llOFxks9jNVwEpQI/edit?usp=sharing">Resume</NavLink>
+                        <NavLink className="text-lg  text-black transition-all " target='_' to="https://drive.google.com/file/d/15qsd7TGuFnp4Woh9Kyu6sdg1O3a8Hvz3/view?usp=sharing">Resume</NavLink>
                       </li>
                   </Fade>
                   </ul>
