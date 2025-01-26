@@ -1,8 +1,8 @@
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
 import Marquee from "react-fast-marquee";
+import { NavLink } from 'react-router-dom';
 import { Education, Experience } from './Components/ExperienceAndEducation';
-import { Link, NavLink } from 'react-router-dom';
 import Project from './Components/Project';
 
 
@@ -33,7 +33,7 @@ const About = () => {
 
               </div>
               <div>
-                <h1 className=' text-l font-extralight text-[#383838] md:w-[70vw] md:text-2xl pl-5 md:pl-[5vw]'>Contact me: <a className='font-medium' href="mailto:yashrajs927@gmail.com">yashrajs97@gmail.com</a></h1>
+                <h1 className=' text-l font-extralight text-[#383838] md:w-[70vw] md:text-2xl pl-5 md:pl-[5vw]'>Contact me: <a className='font-medium' href="mailto:yashraj.r.shitole@gmail.com">yashraj.r.shitole@gmail.com</a></h1>
               </div>
 
               <div className='w-[100%]'>
