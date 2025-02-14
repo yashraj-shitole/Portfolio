@@ -73,9 +73,9 @@ const About = () => {
               <NavLink className="text-3xl font-bold transition-all" to='/work'>Work</NavLink>
 
                 <div className='flex flex-col md:flex-row gap-10 items-center p-5 justify-center'>
-                   <Project name="Opinions - thoughts sharing platform" url="https://cdn.dribbble.com/userupload/14409217/file/original-3c40ee594b8a69ac9649fdb20d5a78e0.png?resize=1024x1169" link="https://share-opinions.vercel.app/"  />
+                   <Project name="Opinions - thoughts sharing platform" url="https://cdn.dribbble.com/userupload/14409217/file/original-3c40ee594b8a69ac9649fdb20d5a78e0.png?resize=1024x1169" link="http://opinions-app.yashrajshitole.in/"  />
 
-              <Project name="Dattayog Farmers PVT. LTD. website" url="https://cdn.dribbble.com/userupload/14492789/file/original-b1a6d1d27b44bb8f7e98ee8ab1afbb0e.png?resize=1299x1180" link="https://dattayog-website-deploy-test.vercel.app/"  />
+              <Project name="Dattayog Farmers PVT. LTD. website" url="https://cdn.dribbble.com/userupload/14492789/file/original-b1a6d1d27b44bb8f7e98ee8ab1afbb0e.png?resize=1299x1180" link="https://dattayog.com/"  />
                 </div>
              
               </div>

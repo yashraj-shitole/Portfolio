@@ -27,7 +27,7 @@ const Education = (props) => {
 <div className='hidden md:flex '>
 <Steps
       current={3}
-      percent={20}
+      percent={90}
       direction="vertical"
 
       
