@@ -40,10 +40,11 @@ const About = () => {
                  <Marquee className='p-10 md:p-32 h-[200px] w-[100%] md:h-[300px]'  speed={100}>
                 <div className='h-auto flex gap-10 pr-10'>
                     <h1 className='text-5xl md:text-8xl font-sharpie'>JAVA</h1>
+                    <h1 className='text-5xl md:text-8xl font-sharpie'>MySQL</h1>
+                    <h1 className='text-5xl md:text-8xl font-sharpie'>Spring Boot</h1>
                     <h1 className='text-5xl md:text-8xl font-sharpie'>JavaScript</h1>
                     <h1 className='text-5xl md:text-8xl font-sharpie'>ReactJS</h1>
                     <h1 className='text-5xl md:text-8xl font-sharpie'>NodeJS</h1>
-                    <h1 className='text-5xl md:text-8xl font-sharpie'>ExpressJS</h1>
                     <h1 className='text-5xl md:text-8xl font-sharpie'>MongoDB</h1>
                     <h1 className='text-5xl md:text-8xl font-sharpie'>UI/UX</h1>
 
